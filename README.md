@@ -17,7 +17,25 @@ pip install -r requirements.txt
 ```
 ## Run e2g.py
 ```bash
-python3.10 e2g.py
+$ python3.10 e2g.py
+
+Ear2Ground: A Program to help you keep tabs on the job postings of infosec companies
+---------------------------
+SCYTHE has new job postings!
+---------------------------
+
+Cyber Threat Intelligence Engineer
+Cybersecurity Product Management Intern - Summer 2022
+---------------------------
+DRAGOS has new job postings!
+---------------------------
+
+International Channel Leader  – UK &amp; Northern Europe
+Marketing Operations Manager
+Senior Business Development Manager
+Senior Linux Engineer
+---------------------------
+
 ```
 
 # Usage
