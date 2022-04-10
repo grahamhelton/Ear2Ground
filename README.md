@@ -15,29 +15,11 @@ python3.10 --version
 ```bash
 pip install -r requirements.txt
 ```
-## Run e2g.py
-```bash
-$ python3.10 e2g.py
-
-Ear2Ground: A Program to help you keep tabs on the job postings of infosec companies
----------------------------
-SCYTHE has new job postings!
----------------------------
-
-Cyber Threat Intelligence Engineer
-Cybersecurity Product Management Intern - Summer 2022
----------------------------
-DRAGOS has new job postings!
----------------------------
-
-International Channel Leader  – UK &amp; Northern Europe
-Marketing Operations Manager
-Senior Business Development Manager
-Senior Linux Engineer
----------------------------
-
-```
 
 # Usage
 ## 
+Simply run `python3.10 e2g.py`
 ![e2g running](./e2gExample.png)
+Job postings are stored in `./data/{company_name}`
+
+The first time you run the program it will return all the job postings. After it has built the initial list of postings it will only return new job postings.
