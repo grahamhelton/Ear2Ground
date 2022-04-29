@@ -106,10 +106,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-'''
-Todo
-- Add 8 more security companies
-- Fix bad variable names
-'''
