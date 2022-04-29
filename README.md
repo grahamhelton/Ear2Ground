@@ -5,6 +5,7 @@ Ear2Ground is a python learning project that I created to show you new job posti
 
 # Installation
 > Make sure you're running python version 3.10!
+
 Installing python3.10
 ```bash
 sudo apt install software-properties-common -y
