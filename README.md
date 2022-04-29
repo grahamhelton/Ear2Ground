@@ -1,4 +1,4 @@
-# Eart 2 Ground
+# Ear 2 Ground
 Ear2Ground is a python learning project that I created to show you new job postings from security websites (or really any site). The idea behind this is not to scrape every *site*, but to provide a framework you can modify for the company's *you're* interested in. This tool comes pre-configured to look at [Dragos](https://www.dragos.com/) and [Scythe](https://www.scythe.io) but the real power is adding your own sites! Unfortunetly this is hard to without looking at the code for each site but I've written e2g to be fairly modular and only require a few code changes to add your own. 
 
 ![e2g](https://user-images.githubusercontent.com/19278569/166077092-19dd1812-293d-4f03-a972-5467406dab0a.gif)
