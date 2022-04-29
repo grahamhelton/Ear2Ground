@@ -13,7 +13,7 @@ sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt update -y
 sudo apt upgrade -y
 sudo apt install python3.10
-sudo apt install pip3
+sudo apt install python3-pip
 python3.10 --version # Make sure python3 is installed
 
 
