@@ -14,12 +14,16 @@ sudo apt update -y
 sudo apt upgrade -y
 sudo apt install python3.10
 sudo apt install pip3
-python3.10 --version
+python3.10 --version # Make sure python3 is installed
+
+
 ```
 
-## Installing dependencies
+## Installing ear2ground
 ```bash
+git clone https://github.com/grahamhelton/Ear2Ground
 pip install -r requirements.txt
+python3.10 e2g.py
 ```
 
 # Usage
