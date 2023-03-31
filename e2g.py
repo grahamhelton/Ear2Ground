@@ -5,8 +5,8 @@ import os
 from os.path import exists
 from bs4 import BeautifulSoup
 from colorama import Fore, Style
-company_list = ['scythe','dragos']
-company_url = {'scythe':'https://www.scythe.io/about/careers','dragos':'https://jobs.lever.co/dragos'}
+company_list = ['scythe','dragos','bishopfox']
+company_url = {'scythe':'https://www.scythe.io/about/careers','dragos':'https://jobs.lever.co/dragos','bishopfox':'https://boards.greenhouse.io/embed/job_board?for=bishopfox'}
 
 # Define formatting
 reset = Style.RESET_ALL
@@ -22,6 +22,9 @@ def get_format(response,company_name):
             return soup
        case "dragos":
             soup = BeautifulSoup(response.text, 'html.parser').findAll("h5",attrs={"data-qa": "posting-name"})
+            return soup
+       case "bishopfox":
+            soup = BeautifulSoup(response.text, 'html.parser').findAll("a",attrs={"data-mapped": "true"})
             return soup
 
 def parse(posting_location,company_name):
